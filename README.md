@@ -3,5 +3,5 @@ This is my 'htdocs' folder from XAMPP where I place different projects for pract
 
 <h1>Projects:</h1>
 <ul>
-    <li>Languages</li>
+    <li>Languages (PHP/MySQL)</li>
 </ul>
