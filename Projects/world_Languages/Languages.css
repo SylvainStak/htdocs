@@ -1,0 +1,81 @@
+select:focus {outline: none;}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+}
+
+table select, input[type="submit"]{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#perc{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+#results{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#results td, #results th{
+    padding: 5px 10px;
+}
+
+#results td{
+    border-top: 1px solid black;
+}
+
+#results td:last-child{
+    text-align: right;
+}
+#results td:first-child{
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+#results tr:nth-child(2) th{
+    border-top: 1px solid black;
+    font-size: 20px;
+}
+
+#results tr:nth-child(2) th:first-child{
+    border-right: 1px solid black;
+}
+
+#nodata{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+#backpage{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10;
+    top: 10;
+}
